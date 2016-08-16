@@ -1,0 +1,28 @@
+h1, h2, h3, p {
+  color: white;
+}
+
+p, li {
+  color: rgba(200,255,255,255);
+}
+
+a {
+  color: rgba(230,255,100,255);
+}
+
+body {
+  background-image: url("../img/sea84.jpg");
+  background-color: #344;
+}
+
+span {
+  font-weight: bold;
+}
+
+h3 {
+  margin-bottom: 30px;
+}
+
+.favorites, .comment {
+  margin-bottom: 50px;
+}

@@ -5,37 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>プロフィール</title>
+    <meta name="description" content="市川圭介のプロフィールページです">
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/custom.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <style>
-      h1,h2,h3,p{color:white;}
-      p,li{color:rgba(200,255,255,255);}
-      a{color:rgba(230,255,100,255);}
-    </style>
   </head>
-  <body background="sea84.jpg">
-    <h1>Hello, world!</h1>
-    <h2>市川圭介のプロフィールです</h2>
+
+  <body class="container">
+    <header>
+      <h1>Hello, world!</h1>
+      <h2>市川圭介のプロフィールです</h2>
+    </header>
+
     <h3>性懲りもなく、また新しい事に挑戦中</h3>
-    <p>先ずは飽きないことを願いましょう</p>
-    <br>
-    <ol>
-      <li>最近は<strong>ゴルフ</strong>に行ってない</li>
-      <li>カブトムシ採りも一回だけ？</li>
-      <li>早起きは？</li>
-      <li>ジョギングは？</li>
-    </ol>
-    <br>
-    <br>
-    <p>もう<strong>飽きた</strong>の？</p>
-    <br>
-    <br>
-    <hr>
-    <p><a href="index.html">このホームページへのリンク</a></p>
-    <p><a href="https://github.com/keikei1012/keikei1012.github.io">Githubページへのリンク</a></p>
+    
+    <div class="favorites">
+      <p>先ずは飽きないことを願いましょう</p>
+      <ol>
+        <li>最近は<span>ゴルフ</span>に行ってない</li>
+        <li>カブトムシ採りも一回だけ？</li>
+        <li>早起きは？</li>
+        <li>ジョギングは？</li>
+      </ol>
+    </div>
+    
+    <div class="comment">
+      <p>もう<span>飽きた</span>の？</p>
+    </div>
+    
+    <footer>
+      <p><a href="index.html">このホームページへのリンク</a></p>
+      <p><a href="https://github.com/keikei1012/keikei1012.github.io">Githubページへのリンク</a></p>
+    </footer>
   </body>
 </html>
